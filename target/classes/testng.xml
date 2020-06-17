@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HttpClientFramework">
+
+<listeners>
+  <listener class-name="com.qa.extentReportListener.ExtentReport"/>
+  </listeners>
+  
+
+  <test name="RestAPITest">
+    <classes>
+      <class name="com.qa.test.GetAPITest"/>
+      <class name="com.qa.test.PostAPITest"/>
+      <class name="com.qa.test.PutAPITest"/>
+      <class name="com.qa.test.DeleteAPITest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

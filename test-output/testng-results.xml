@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-11T14:12:35 PDT" name="HttpClientFramework" finished-at="2020-05-11T14:12:39 PDT" duration-ms="4419">
+    <groups>
+    </groups>
+    <test started-at="2020-05-11T14:12:35 PDT" name="RestAPITest" finished-at="2020-05-11T14:12:39 PDT" duration-ms="4419">
+      <class name="com.qa.test.PostAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.PostAPITest@49e5f737]" started-at="2020-05-11T14:12:35 PDT" name="setUp" finished-at="2020-05-11T14:12:35 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postAPITest()[pri:0, instance:com.qa.test.PostAPITest@49e5f737]" started-at="2020-05-11T14:12:35 PDT" name="postAPITest" finished-at="2020-05-11T14:12:36 PDT" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITest -->
+      </class> <!-- com.qa.test.PostAPITest -->
+      <class name="com.qa.test.DeleteAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.DeleteAPITest@757277dc]" started-at="2020-05-11T14:12:38 PDT" name="setUp" finished-at="2020-05-11T14:12:38 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteAPITest()[pri:0, instance:com.qa.test.DeleteAPITest@757277dc]" started-at="2020-05-11T14:12:38 PDT" name="deleteAPITest" finished-at="2020-05-11T14:12:39 PDT" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAPITest -->
+      </class> <!-- com.qa.test.DeleteAPITest -->
+      <class name="com.qa.test.GetAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@445b295b]" started-at="2020-05-11T14:12:35 PDT" name="setUp" finished-at="2020-05-11T14:12:35 PDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAPITest()[pri:1, instance:com.qa.test.GetAPITest@445b295b]" started-at="2020-05-11T14:12:35 PDT" name="getAPITest" finished-at="2020-05-11T14:12:35 PDT" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.GetAPITest@445b295b]" started-at="2020-05-11T14:12:35 PDT" name="setUp" finished-at="2020-05-11T14:12:35 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAPITestWithHeaders()[pri:2, instance:com.qa.test.GetAPITest@445b295b]" started-at="2020-05-11T14:12:35 PDT" name="getAPITestWithHeaders" finished-at="2020-05-11T14:12:35 PDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithHeaders -->
+      </class> <!-- com.qa.test.GetAPITest -->
+      <class name="com.qa.test.PutAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.PutAPITest@5c671d7f]" started-at="2020-05-11T14:12:36 PDT" name="setUp" finished-at="2020-05-11T14:12:36 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="putAPITest()[pri:0, instance:com.qa.test.PutAPITest@5c671d7f]" started-at="2020-05-11T14:12:36 PDT" name="putAPITest" finished-at="2020-05-11T14:12:38 PDT" duration-ms="2537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putAPITest -->
+      </class> <!-- com.qa.test.PutAPITest -->
+    </test> <!-- RestAPITest -->
+  </suite> <!-- HttpClientFramework -->
+</testng-results>
